@@ -1,0 +1,9 @@
+@media screen and (max-width: 1150px){
+    #papel-de-parede{
+        display: none;
+    }
+    html,body {
+        overflow: auto;
+
+    }
+}

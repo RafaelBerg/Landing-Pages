@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --- HEADER --- */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 120px;
+    margin-bottom: 90px;
+    flex-wrap: wrap;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    margin: 17px;
+}
+
+a:hover{
+    color: #9b06d0;
+}
+
+#botao{
+    border: 2px solid #9b06d0;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+
+#botao:hover{
+    background: #9b06d0;
+    color: white;
+}
+
+
+
+/* --- MAIN --- */
+body{
+    background: #232123;
+}
+
+
+#principal{
+    display: flex;
+    margin-left: 120px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    gap: 20px;
+}
+
+p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #b8bcc3;
+    margin: 15px 0px;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 55px;
+}
+
+h2{
+    line-height: 27px;
+}
+
+img{
+   width: 100%;
+}
+
+
+input{
+    border: 2px solid white;
+    color: #232123;
+    border-radius: 17px;
+    padding: 12px;
+    width: 280px;
+}
+
+#enviar{
+    width: 150px;
+    border: 0px;
+    background: #9b06d0;
+    color: white;
+}
+
+#enviar:hover{
+    color: #9b06d0;;
+    background: white;
+    cursor: pointer;
+}
+

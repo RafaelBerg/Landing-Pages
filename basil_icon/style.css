@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+}
+
+/* Tirando o scroll da pag*/
+html,body {
+    height: 100%;
+    overflow: hidden;
+    background: #FFEE62;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 50px 160px;
+    padding: 0px auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 90px 160px;
+}
+
+footer{
+    margin: 90px 160px;
+}
+
+/* SEPARANDO */
+h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 61px;
+    letter-spacing: -0.02em;
+}
+
+h3{
+    font-size: 43px;
+}
+
+p{
+    color: #6c6429;
+    font-size: 35px;
+}
+
+/* Id personalizado para a imagem */
+#papel-de-parede{
+    position: absolute;
+    right: 0;
+    width: 720px;
+}
